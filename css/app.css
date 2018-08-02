@@ -1,0 +1,121 @@
+#cilent {
+    padding-top: 20px;
+    background: #eeee;
+    color: black;
+    padding-bottom: 30px;
+}
+
+#cilent .card {
+    transition: all ease 500ms;
+    color: black;
+}
+
+#cilent .card:hover {
+    transform: translateY(10px);
+    -webkit-box-shadow: -2px 31px 208px -59px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 31px 208px -59px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 31px 208px -59px rgba(0, 0, 0, 0.75);
+    background-color: #207ce5;
+    color: white;
+}
+
+#cilent .card:hover h4 {
+    color: white;
+}
+
+/*gallery styles*/
+
+#gallery {
+    padding: 20px;
+    background-image: url('../img/tilebg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: White;
+    min-height: 350px;
+}
+
+/* heading for parallax  */
+
+#heading {
+    font-size: 2em;
+    margin-top: 3rem;
+    padding: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: rgba(24, 105, 155, 0.5);
+}
+
+/* image gallery  */
+
+#imageGallery {
+    margin-top: 3rem;
+    padding: 60px;
+    background-image: url('../img/second.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+    color: White;
+    min-height: 350px;
+}
+
+.middlegallery {
+    font-size: 2em;
+    margin-top: 3rem;
+    padding: 3rem;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: rgba(24, 105, 155, 0.5);
+}
+
+/* flex columns */
+
+.flex-column {
+    max-width: 340px;
+}
+
+img {
+    margin: 2px;
+    transition: all ease 400ms;
+}
+
+img:hover {
+    transform: translatey(2px);
+}
+
+#contact {
+    background: #ffff;
+    padding: 5rem 0 2rem 0;
+}
+
+#contact .info {
+    margin-top: -5rem;
+}
+
+#contact .fab {
+    font-size: 25px;
+    color: #18699B;
+}
+
+#contact .card-header-info {
+    background: #18699B;
+}
+
+#contact .btn.btn-outline-info {
+    color: #18699B;
+    border-color: #18699b;
+    transition: all ease 200ms;
+}
+
+#contact .btn-outline-info:hover {
+    background: #18699b;
+    transform: translateY(5px);
+    color: white;
+}
+
+#contact .icon-info {
+    color: #18699B;
+}
